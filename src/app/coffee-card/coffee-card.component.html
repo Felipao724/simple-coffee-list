@@ -1,0 +1,23 @@
+<div class="image-container">
+  <div class="popular-label" *ngIf="coffee.popular">Popular</div>
+  <img [src]="coffee.image" [alt]="coffee.name" />
+</div>
+<div class="name-price">
+  <p>{{ coffee.name }}</p>
+  <span>{{ coffee.price }}</span>
+</div>
+<div class="rating-container">
+  <div>
+    <img
+      [src]="
+        coffee.votes ? '../../assets/Star_fill.svg' : '../../assets/Star.svg'
+      "
+      alt=""
+    />
+    <p>{{ coffee.votes ? coffee.rating : "" }}</p>
+    <span class="votes"
+      >{{ coffee.votes ? "(" + coffee.votes + " votes)" : "No ratings" }}
+    </span>
+  </div>
+  <span class="sold-out" *ngIf="!coffee.available">Sold out</span>
+</div>
