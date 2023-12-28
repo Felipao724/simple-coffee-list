@@ -70,7 +70,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_coffe_service__WEBPACK_IMPORTED_MODULE_1__["CoffeService"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 18, vars: 5, consts: [[1, "main-container"], [1, "header-img"], ["src", "../assets/bg-cafe.jpg", "alt", "Imagen de fondo"], [1, "coffee-container"], [1, "heading"], ["src", "../assets/vector.svg", "alt", ""], [1, "title-subtitle"], [1, "filter-buttons"], [3, "click"], [1, "coffee-list"], [3, "coffee", 4, "ngFor", "ngForOf"], [3, "coffee"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 18, vars: 5, consts: [[1, "main-container"], [1, "header-img"], ["src", "assets/bg-cafe.jpg", "alt", "Imagen de fondo"], [1, "coffee-container"], [1, "heading"], ["src", "assets/vector.svg", "alt", ""], [1, "title-subtitle"], [1, "filter-buttons"], [3, "click"], [1, "coffee-list"], [3, "coffee", 4, "ngFor", "ngForOf"], [3, "coffee"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
