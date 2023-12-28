@@ -350,4 +350,4 @@ module.exports = __webpack_require__(/*! C:\Users\felipe.salas\Documents\practic
 /***/ })
 
 },[[0,"runtime","vendor"]]]);
-//# sourceMappingURL=main-es2016.js.map
+//# sourceMappingURL=main-es2015.js.map

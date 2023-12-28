@@ -447,4 +447,4 @@ module.exports = __webpack_require__(/*! C:\Users\felipe.salas\Documents\practic
 /***/ })
 
 },[[3,"runtime"]]]);
-//# sourceMappingURL=styles-es2016.js.map
+//# sourceMappingURL=styles-es2015.js.map
