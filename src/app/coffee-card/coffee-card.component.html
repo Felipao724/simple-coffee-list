@@ -9,9 +9,7 @@
 <div class="rating-container">
   <div>
     <img
-      [src]="
-        coffee.votes ? '../../assets/Star_fill.svg' : '../../assets/Star.svg'
-      "
+      [src]="coffee.votes ? 'assets/Star_fill.svg' : 'assets/Star.svg'"
       alt=""
     />
     <p>{{ coffee.votes ? coffee.rating : "" }}</p>
